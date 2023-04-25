@@ -4,3 +4,40 @@
     padding: 0;
    
 }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root{
+    --color-brand-primary: #1d99ff;
+    --color-brand-secundary: #ff455b;
+  
+    --color-brand-erro: #ff15526e;
+    --color-brand-info: #3da4f3;
+    --color-feedback-success: #00c689;
+    --color-feedback-warning: #fdbf35;
+  
+    --color-text-dark: #708AA1;
+    --color-text-light: #aebdc9;
+  
+    --color-interface-light: #f1f4f6;
+    --color-interface-dark: #d5e0ec;
+  
+    --color-common-light: #ffffff;
+    --color-common-dark: #000000;
+  
+    --spacing-xsmall: 4px;
+    --spacing-small: 8px;
+    --spacing-default: 16px;
+    --spacing-medium: 24px;
+    --spacing-large: 32px;
+    --spacing-xlarge: 40px;
+  } 
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
