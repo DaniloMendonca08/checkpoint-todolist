@@ -88,3 +88,46 @@ header {
     font-weight: 700;
     color: var(--color-brand-primary);
 }
+
+.container {
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-task {
+    margin-top: var(--spacing-large);
+}
+
+.form-task-label {
+    display: inline-block;
+    align-items: flex-start;
+    color: var(--color-text-dark);
+    font-weight: 700;
+}
+
+.form-task-input {
+    display: inline-block;
+    width: 100vw;
+    height: 5vh;
+    border-color: var(--color-text-light);
+    border-radius: 5px;
+}
+
+.form-task-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    width: 17vw;
+    height: 5vh;
+    color: var(--color-common-light);
+    background-color: var(--color-brand-secundary);
+    border: solid 2vw var(--color-brand-secundary);
+    border-radius: 1vw;
+}
+
+.div-input-button {
+    display: flex;
+    justify-content: flex-start;
+}
