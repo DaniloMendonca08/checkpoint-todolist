@@ -169,6 +169,11 @@ header {
     padding-left: 3vw;
   }
 
+.add-task {
+    border-bottom: 1px solid var(--color-brand-secundary); 
+    padding-bottom: var(--spacing-xlarge);
+  }
+
 .button-edit {
     margin-left: auto;
   }
