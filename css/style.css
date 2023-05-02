@@ -131,3 +131,41 @@ header {
     display: flex;
     justify-content: flex-start;
 }
+
+.task1 {
+    margin-top: 7vh;
+    display:flex;
+    border: 1px solid var(--color-brand-secundary);
+    padding: 5px;
+    padding-left: 2vw;
+  }  
+
+.task2 {
+    margin-top: 2vh;
+    display:flex;
+    border: 1px solid var(--color-brand-secundary);
+    padding: 5px;
+    padding-left: 2vw;
+  }
+
+.nome-task1 {
+    text-decoration: line-through;
+    padding-left: 3vw;
+  }
+
+.nome-task2 {
+    padding-left: 3vw;
+  }
+
+.button-edit {
+    margin-left: auto;
+  }
+
+.button-delete {
+    padding-left: 3vw;
+  }
+  
+.button-edit,
+.button-delete {
+    color: var(--color-text-dark);
+}
