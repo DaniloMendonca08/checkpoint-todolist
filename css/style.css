@@ -186,7 +186,3 @@ header {
 .button-delete {
     color: var(--color-text-dark);
 }
-
-input[type="checkbox"]:checked {
-    accent-color: var(--color-text-dark);
-  }
