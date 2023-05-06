@@ -198,8 +198,13 @@ input[type="checkbox"]:checked {
   }
 
   input[type="checkbox"] {
-    width: 1.4vw;
-    height: 2.3vw;
+    width: 2vw;
+    height: 4vw;
+  }
+
+  .nome-task1,
+  .nome-task2 {
+    padding-top: 0.3em;
   }
 }
 
@@ -217,5 +222,52 @@ input[type="checkbox"]:checked {
     input[type="checkbox"] {
       width: 1.2vw;
       height: 2.1vw;
+    }
+  }
+
+@media (min-width:2560px) {
+    .avatar {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+  
+    body {
+      font-size: 3em;
+    }
+  
+    .material-symbols-outlined.menu,
+    .material-symbols-outlined.add,
+    .material-symbols-outlined.edit,
+    .material-symbols-outlined.delete {
+      font-size: 4em;
+    }
+
+    .form-task-input {
+      border-radius: 0.6vw;
+      border: 0.1vw solid var(--color-text-dark);
+    }
+  
+  
+    input[type="checkbox"] {
+      width: 1.4vw;
+      height: 2.3vw;
+    }
+    
+    html {
+      border: 0.1vw solid var(--color-brand-secundary);  
+    }
+  
+    header {
+      border-bottom: 0.1vw solid var(--color-brand-secundary);
+    }
+  
+    .add-task {
+      border-bottom: 0.1vw solid var(--color-brand-secundary); 
+    }
+  
+    .task1,
+    .task2 {
+      border: 0.1vw solid var(--color-brand-secundary);  
     }
   }
